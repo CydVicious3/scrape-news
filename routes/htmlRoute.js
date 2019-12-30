@@ -1,4 +1,4 @@
-
+console.log("html routes")
 // DEPENDENCIES
 // Include the path package to get the correct file path for our html
 var path = require("path");
