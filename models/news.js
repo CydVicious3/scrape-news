@@ -4,6 +4,8 @@ const mongoose = require("mongoose")
 const Schema = mongoose.Schema
 
 // Create a new UserSchema object using the Schema constructor
+let user = new Schema('userSchema')
+
 // This is similar to a Sequelize model
 const News = new Schema({
   // `title` is required and of type String
