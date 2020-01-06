@@ -16,7 +16,7 @@ module.exports = function (app) {
           // create the object and insert in the db
           const headline = JSON.parse(JSON.stringify(cardHeadlines))
           const description = JSON.parse(JSON.stringify(cardDesc))
-          const image = JSON.parse(JSON.stringify(cardImg))
+          const image = cardImg
           console.log(image)
 
 
